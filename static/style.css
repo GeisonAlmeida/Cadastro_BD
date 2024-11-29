@@ -1,74 +1,70 @@
+/* Fundo escuro com brilho suave */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #935f3f;
+    background-color: #121212;
+    overflow: hidden;
 }
 
+/* Login container com tema neon */
 .login-container {
     width: 350px;
     padding: 20px;
-    background-color: #895a3d;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(50, 50, 50, 0.8);
+    border: 1px solid #00ffcc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffcc;
 }
 
 .login-container h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #f1ebeb;
+    color: #00ffcc;
 }
 
-.input-field {
-    margin-bottom: 15px;
+/* Estilo de entrada e rótulo */
+.input-field label, .input-field input, .login-button {
+    color: #ffffff;
 }
 
-.input-field label {
-    display: block;
-    margin-bottom: 10px;
-    color: #fcfafa;
-}
-
-.input-field input {
-    width: 96%;
-    padding: 5px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-.input-field a {
-    color: #181817;
-}
-
+/* Estilo do botão neon */
 .login-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #b57355;
-    border: none;
-    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #00ffcc;
+    color: #00ffcc;
     font-size: 16px;
-    border-radius: 4px;
     cursor: pointer;
-}
-
-.login-cadastro {
-    width: 100%;
+    transition: 0.3s;
     padding: 10px;
-    background-color: #b57355;
-    border: none;
-    color: #ffffff;
-    font-size: 16px;
+    width: 100%;
     border-radius: 4px;
-    cursor: pointer;
 }
 
 .login-button:hover {
-    background-color: #a07245;
+    background-color: #00ffcc;
+    color: #121212;
 }
-.login-cadastro:hover {
-    background-color: #a07245;
+
+/* Container para o link de cadastro */
+.form-action {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Boneco futurista */
+#boneco {
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle, #00ffcc, #003333);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    box-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffcc;
+    transition: transform 0.05s ease-out;
 }

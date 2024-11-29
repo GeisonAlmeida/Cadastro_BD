@@ -7,6 +7,8 @@
     <title>Tela de Login</title>
 </head>
 <body>
+    <div id="boneco"></div> <!-- Boneco que segue o mouse -->
+    
     <div class="login-container">
         <h1>Login</h1>
         <form action="/login" method="post">
@@ -20,12 +22,14 @@
             </div>
             <button type="submit" class="login-button">Entrar</button><br><br>
             
-            <div>
+            <div class="form-action">
                 <a href="{{ url_for('page_cadastro') }}">
                     <button type="button" class="login-button">Cadastro</button>
                 </a>
             </div>
         </form>
     </div>
+    
+    <script src="static/script.js"></script> <!-- Script externo -->
 </body>
 </html>
