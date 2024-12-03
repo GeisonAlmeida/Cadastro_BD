@@ -57,14 +57,14 @@ body {
 
 /* Boneco futurista */
 #boneco {
-    width: 30px;
-    height: 30px;
-    background: radial-gradient(circle, #00ffcc, #003333);
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, #00ffcc, #000000);
     border-radius: 50%;
     position: absolute;
     top: 0;
     left: 0;
     pointer-events: none;
-    box-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffcc;
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #ffffff;
     transition: transform 0.05s ease-out;
 }
