@@ -1,0 +1,2 @@
+USERS = [{"id":1, "nome":"Geison", "sobrenome":"Almeida", "senha":"123", "telefone":"(51)998898614", "endereco":"Canoas", "cep":"92420100", "idade":"28", "cpf":"123456789"},
+         {"id":2, "nome":"Rafael", "sobrenome":"Nascimento", "senha":"321", "telefone":"(51)998897755", "endereco":"Alvorada", "cep":"92420111", "idade":"28", "cpf":"987654321"}]
